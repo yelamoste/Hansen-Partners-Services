@@ -1,0 +1,22 @@
+.nav-cont {
+    display: flex;
+    top: 0;
+    left: 0;
+    position: sticky;
+    background-color: white;
+    height: 7vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 10;
+}
+
+.dir {
+    text-decoration: none;
+    color: gray;
+    font-size: clamp(12px, 15vw, 14px);
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}

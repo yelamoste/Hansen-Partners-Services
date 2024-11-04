@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  
+}
+.main-cont {
+  width: 100vw;
+  height: max-content;
+}
+
+.brief-info , .cmp-section, .front-page, .footer, .processes{
+  height: 100vh;
+  width: 100%;
+}
+/* Front page */
+.front-page{
+  background-color: aliceblue;
+}
+
+.image-bg{
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.design-bg{
+  width: 50px;
+}
+#pic1, #pic1-1, #pic1-2 {
+  width: 20px;
+}
+
+.page-name{
+  font-size: clamp(20px, 15vw, 60px);
+  color: black;
+}
+
+/* CMP Section */
+.cmp-section{
+  background-color: aqua;
+}
+
+/* Processes */
+.processes{  
+  background-color: rgb(200, 255, 0);
+}
+/* Brief Info */
+.brief-info{
+  background-color: rgb(255, 0, 128);
+}
+/* Footer */
+.footer{
+  background-color: rgb(9, 255, 0);
+}
