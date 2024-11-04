@@ -1,0 +1,112 @@
+
+/* Processes */
+.processes {
+    background-color: aliceblue;
+    color: rgb(58, 58, 58);
+    height: 100vh;
+  width: 100%;
+  }
+  
+  .process-cont {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 30%;
+  }
+  
+  .selling-process,
+  .buying-process {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .process-title {
+    font-size: clamp(18px, 15vw, 25px);
+    font-weight: 500;
+    font-family: "Inter Tight", sans-serif;
+  }
+  
+  .process-step {
+    display: flex;
+    text-align: center;
+    margin: 5px 15px 5px 15px;
+    font-size: clamp(12px, 15vw, 14px);
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  
+  }
+  
+  .step {
+    position: absolute;
+    height: 10px;
+    border-radius: 50px 50px;
+    border: 1.5px dashed rgb(29, 29, 29);
+    margin: 30px;
+    background-color: #c0baba;
+    margin-top: 5%;
+  }
+  
+  #step-sell {
+    animation: mystepper 50s infinite;
+    left: 10%;
+  }
+  
+  #step-buy {
+    animation: mybuystepper 35s infinite;
+    left: 23%;
+  }
+  
+  .step-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+  }
+  
+  @keyframes mybuystepper {
+    0% {
+      width: 0%; 
+    }
+  
+    25% {
+      width: 20%;
+    }
+  
+    50% {
+      width: 37%;
+    }
+  
+    60% {
+      width: 50%;
+    }
+  }
+  
+  @keyframes mystepper {
+  
+    0% {
+      width: 5%;
+    }
+  
+    25% {
+      width: 20%;
+    }
+  
+    50% {
+      width: 42%;
+    }
+  
+    75% {
+      width: 63%;
+    }
+  
+    100% {
+      width: 78%;
+    }
+  }
+  
