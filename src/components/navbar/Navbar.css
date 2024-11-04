@@ -17,6 +17,10 @@
     font-size: clamp(12px, 15vw, 14px);
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
+}
+.dir:hover{
+    color: rgb(54, 54, 54);
+
 }

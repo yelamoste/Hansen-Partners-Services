@@ -18,18 +18,17 @@ function App() {
         <Navbar/>
         <div className="front-page">
           <div className="image-bg">
-            <img src={dot} className='design-bg'id='pic1' />
-            <img src={dot} className='design-bg'id='pic1-1' />
-            <img src={dot} className='design-bg'id='pic1-2' />
             <img src={placeholder} className='design-bg' id='pic2'/>
             <img src={star} className='design-bg' id='pic3'/>
             <img src={stars} className='design-bg' id='pic4'/>
             <img src={urban} className='design-bg' id='pic5'/>
           </div>
           <p className="page-name">Services</p>
-          <button onClick={()=> setApmt(true)}>Book an Appointment</button>
+          <button onClick={()=> setApmt(true)} className='apmtsty'>Book an Appointment</button>
           <ApmtButton trigger={Apmt} setTrigger={setApmt}/>
+          
         </div>
+        <div className="image-bg-full"></div>
         <div className="cmp-section"></div>
         <div className="processes"></div>
         <div className="brief-info"></div>
