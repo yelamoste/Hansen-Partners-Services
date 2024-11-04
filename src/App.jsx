@@ -57,20 +57,39 @@ function App() {
             </div>
           </div>
           <div className="card-cont">
-            <div className="card-cont-cont">
-              <img src="https://res.cloudinary.com/luxuryp/images/w_1280,c_limit,f_auto,q_auto/ghtq7jtce7tsgdjtosrs/image-025" alt="" className='author-img' />
-              <div className="cont-title"></div>
-              <div className="cont-details"></div>
-            </div>
 
+            <img src="https://res.cloudinary.com/luxuryp/images/w_1280,c_limit,f_auto,q_auto/ghtq7jtce7tsgdjtosrs/image-025" alt="" className='author-img' />
             <div className="card-cont-cont">
-              <div className="cont-title"></div>
-              <div className="cont-details"></div>
+              <div className="cont-title">Decor Guidance & Intentional Layout</div>
+              <div className="cont-details">
+                <p className='cont-detail-title'>My Staging Expertise</p>
+                <ul className='list'>
+                  <li>Unclutter and organize your home</li>
+                  <li>Neatly arrange drawers and cabinets</li>
+                  <li>Keep pets outdoors or off the premises</li>
+                  <li>Play soft music</li>
+                </ul>
+              </div>
             </div>
           </div>
 
         </div>
-        <div className="processes"></div>
+        <div className="processes">
+          <div className="selling-process">
+            <div className="process-title">The Selling Process</div>
+            <div className="process-cont">
+              <div className="process-step" id='ps1'>Initial Consultation & Planning</div>
+              <div className="process-step" id='ps2'>Devise & Execute Marketing Plan</div>
+              <div className="process-step" id='ps3'>Review Offers & Reach Agreement with Buyer </div>
+              <div className="process-step" id='ps4'>Complete Transaction Process</div>
+              <div className="process-step" id='ps5'>After-Sale Service</div>
+            </div>
+          </div>
+          <div className="buying-process">
+            <div className="process-title">The Buying Process</div>
+            <div className="process-cont"></div>
+          </div>
+        </div>
         <div className="brief-info"></div>
         <div className="footer"></div>
       </div>
