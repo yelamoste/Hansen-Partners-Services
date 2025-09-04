@@ -11,6 +11,7 @@
     left: 0;
     position: sticky;
     z-index: 10;
+    align-items: flex-end;
 }
 .nav-cont {
     display: flex;
