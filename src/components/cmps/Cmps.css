@@ -116,4 +116,7 @@
   .card-cont-cont {
     width: 50%;
   }
-  
+  .blob-design {
+      z-index: 1;
+      
+  }
