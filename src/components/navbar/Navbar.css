@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
-.nav-cont {
+
+.nav-main{
     display: flex;
-    top: 0;
-    left: 0;
-    position: sticky;
+    flex-direction: column;
     background-color: white;
     height: 10vh;
     width: 100vw;
+    top: 0;
+    left: 0;
+    position: sticky;
+    z-index: 10;
+}
+.nav-cont {
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
-    z-index: 10;
+    
 }
 
 .dir {
