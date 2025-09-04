@@ -45,6 +45,7 @@ const Cmps = () => {
                         </ul>
                     </div>
                 </div>
+                <div className="blob-design"></div>
             </div>
 
         </div>
