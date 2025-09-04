@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 .nav-cont {
     display: flex;
     top: 0;
     left: 0;
     position: sticky;
     background-color: white;
-    height: 7vh;
+    height: 10vh;
     width: 100vw;
     align-items: center;
     justify-content: space-evenly;
@@ -24,3 +26,11 @@
     color: rgb(54, 54, 54);
 
 }
+.hansen-title{
+    font-size: 14px;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+    text-align: center;
+        }
